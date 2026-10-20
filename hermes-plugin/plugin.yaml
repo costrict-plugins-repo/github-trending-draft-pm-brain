@@ -1,0 +1,6 @@
+name: draft
+version: 1.0.0
+description: Draft context layer — injects workspace context at session start and stages proposals at session end
+hooks:
+  - on_session_start
+  - on_session_end
